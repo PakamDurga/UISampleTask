@@ -1,0 +1,56 @@
+:host {
+  display: block;
+  height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-box {
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 40px;
+  width: 360px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.home-box:hover {
+  transform: translateY(-3px);
+}
+
+.home-box h2 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.home-box p {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.home-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #42a5f5, #7e57c2);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.home-box button:hover {
+  transform: scale(1.02);
+  background: linear-gradient(to right, #2196f3, #673ab7);
+}

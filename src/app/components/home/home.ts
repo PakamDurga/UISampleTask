@@ -8,6 +8,7 @@ import { AuthService } from '../../services/auth.service';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './home.html',
+  styleUrls: ['./home.scss'],
 })
 export class HomeComponent implements OnInit {
   user: any;
